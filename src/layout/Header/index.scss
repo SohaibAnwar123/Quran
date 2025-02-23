@@ -1,0 +1,19 @@
+.navbar-toggle-menu{
+    z-index: 2;
+    a.active{
+        background: #FF98221A;
+    }
+}
+.nav-link.active{
+    color: #FF9900;
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.80);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: block;
+    position: fixed;
+}

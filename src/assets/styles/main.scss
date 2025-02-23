@@ -1,0 +1,57 @@
+@import './fonts';
+@import './typography';
+$grey: #262626;
+$primary: #FF9900;
+$secondary: #4B4B4B;
+$gradient: linear-gradient(180deg, #3E393D 0%, #745237 100%);
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.content-container{
+    width: 85%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and (max-width:1580px) {
+        max-width: 1174px;
+    }
+    @media screen and (max-width: 568px) {
+        width: 90%;
+    }
+}
+.btn{
+    padding: 17px 38px;
+    border-radius: 10px; 
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    color: #FFF;
+    display: inline-block;
+    @media screen and (max-width: 568px) {
+        font-size: 14px;
+        padding: 8px 21px;
+        border-radius: 5px; 
+    }
+    &.btn-sm{
+        padding: 14px 44px;
+        font-size: 15px;
+    }
+    &.btn-primary{
+        background: $primary;
+    }
+    &.btn-secondary{
+        background-color: $secondary;
+    }
+}
+
+.bg-gradient{
+    background: linear-gradient(180deg, #3E393D 0%, #745237 100%);
+}
+.bg-primary-gradient{
+    background: linear-gradient(180deg, #F90 0%, #9B5D00 100%);
+}

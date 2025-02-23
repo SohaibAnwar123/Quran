@@ -1,0 +1,22 @@
+.prayer-types-section{
+    .prayer-items .prayer-item{
+        &:nth-of-type(odd){
+            background: #915C201A;
+            h6{
+                color: #915C20;
+            }
+            p{
+                color: black;
+            }
+        }
+        &:nth-of-type(even){
+            background: #915C20;
+            h6{
+                color: #fff;
+            }
+            p{
+                color: #fff;
+            }
+        }
+    }
+}
